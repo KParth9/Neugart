@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Neugart GmbH | Schaltschrankbau & Regelungstechnik</title>
+    
+    <!-- Preload critical images for faster loading -->
+    <link rel="preload" as="image" href="images/B1.jpg" fetchpriority="high">
+    <link rel="preload" as="image" href="images/BG.jpg" fetchpriority="high">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========== BACKGROUND SLIDESHOW (5 COMPANY IMAGES) ========== -->
+    <div class="slideshow-container">
+        <div class="slide active" style="background-image: url('images/B1.jpg');"></div>
+        <div class="slide" style="background-image: url('images/B2.jpg');"></div>
+        <div class="slide" style="background-image: url('images/B3.jpg');"></div>
+        <div class="slide" style="background-image: url('images/B4.jpg');"></div>
+        <div class="slide" style="background-image: url('images/B5.jpg');"></div>
+    </div>
+
+    <!-- ========== MAIN CONTENT WRAPPER ========== -->
+    <div class="main-content">
+        <!-- ========== NAVIGATION HTML ========== -->
+        <nav class="navbar">
+            <div class="logo-container" id="logoHomeLink">
+                <img src="images/neugart logo.png" alt="Neugart GmbH" class="logo-img" loading="eager" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                <span class="logo-text-fallback" style="display: none;">NEUGART GmbH</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Regelungstechnik</a>
+                <a href="#services">Schaltschrankbau</a>
+                <a href="#references">Referenzen</a>
+                <a href="#about">Über uns</a>
+                <a href="#careers">Karriere</a>
+                <a href="#contact" class="contact-nav-btn">Kontakt</a>
+            </div>
+        </nav>
+
+        <!-- ========== HERO SECTION - WITH FIXED BACKGROUND IMAGE ========== -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-quote">„Wir regeln das.“</div>
+                <div class="hero-company">Neugart GmbH</div>
+                <div class="hero-divider"></div>
+                <div class="hero-tagline">- Ihr Komplettanbieter</div>
+                <ul class="hero-services-list">
+                    <li>für Gebäudeautomation</li>
+                    <li>Schaltschrankbau</li>
+                    <li>und intelligente Regelungstechnik</li>
+                </ul>
+                <a href="#contact" class="cta-button">Jetzt Kontakt aufnehmen →</a>
+            </div>
+        </section>
+
+        <!-- ========== SERVICES SECTION - WITH CUSTOM LOCAL ICONS ========== -->
+        <section id="services" class="services-section">
+            <h2 class="section-title">Unsere Kernkompetenzen</h2>
+            <div class="services-grid">
+                <!-- Service Card 1 - Schaltschrankbau with custom icon -->
+                <div class="service-card">
+                    <img src="images/Schaltschrankbau.ico" alt="Schaltschrankbau Icon" class="service-icon-img" loading="lazy"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <div class="service-icon-fallback" style="display: none;">🔧</div>
+                    <h3>Schaltschrankbau</h3>
+                    <p>Individuelle Schaltschränke nach Ihren Anforderungen – präzise, zuverlässig und maßgeschneidert. Vom Kleinsteuerschrank bis zur komplexen Anlage.</p>
+                </div>
+                <!-- Service Card 2 - Regelungstechnik with custom icon -->
+                <div class="service-card">
+                    <img src="images/willo pump.ico" alt="Regelungstechnik Icon" class="service-icon-img" loading="lazy"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <div class="service-icon-fallback" style="display: none;">⚙️</div>
+                    <h3>Regelungstechnik</h3>
+                    <p>Moderne Regelungslösungen für komplexe Anlagen und Prozesse in der Gebäudeautomation. SPS-Programmierung, Visualisierung und Inbetriebnahme.</p>
+                </div>
+                <!-- Service Card 3 - Gebäudeautomation with custom icon -->
+                <div class="service-card">
+                    <img src="images/kieback.ico" alt="Gebäudeautomation Icon" class="service-icon-img" loading="lazy"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <div class="service-icon-fallback" style="display: none;">🏢</div>
+                    <h3>Gebäudeautomation</h3>
+                    <p>Vernetzte Systeme für effizientes und komfortables Gebäudemanagement. KNX, BACnet, LON – wir integrieren alle gängigen Standards.</p>
+                </div>
+            </div>
+            <div class="expertise-badge">
+                <span class="badge">🏆 150+ Industrieanlagen</span>
+                <span class="badge">🏥 Kliniken & Medizintechnik</span>
+                <span class="badge">🏭 Produktionsbetriebe</span>
+                <span class="badge">🌍 Energieoptimierung</span>
+            </div>
+        </section>
+
+        <!-- ========== REFERENCES SECTION ========== -->
+        <section id="references" class="references-section">
+            <h2 class="section-title">Referenzen</h2>
+            <div class="references-grid">
+                <div class="reference-item">
+                    <div class="reference-icon">🏭</div>
+                    <h4>Automobilindustrie</h4>
+                    <p>Vollautomatische Produktionslinien</p>
+                </div>
+                <div class="reference-item">
+                    <div class="reference-icon">🏥</div>
+                    <h4>Klinikum Stuttgart</h4>
+                    <p>Komplette Gebäudeautomation</p>
+                </div>
+                <div class="reference-item">
+                    <div class="reference-icon">🏢</div>
+                    <h4>Bürokomplex München</h4>
+                    <p>Intelligente Regelungstechnik</p>
+                </div>
+                <div class="reference-item">
+                    <div class="reference-icon">🌱</div>
+                    <h4>Energiezentrum Hamburg</h4>
+                    <p>Effizienzsteigerung 35%</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== ABOUT SECTION ========== -->
+        <section id="about" class="about-section">
+            <h2 class="section-title">Über Neugart GmbH</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Seit über 20 Jahren steht Neugart GmbH für Qualität und Innovation im Schaltschrankbau und der Regelungstechnik. Wir sind Ihr zuverlässiger Partner für maßgeschneiderte Lösungen in der Gebäudeautomation – vom Konzept bis zur Wartung.</p>
+                    <p>Unser Team aus erfahrenen Ingenieuren und Technikern arbeitet eng mit Ihnen zusammen, um optimale Ergebnisse zu erzielen: energieeffiziente Steuerungen, zukunftssichere Gebäudeautomation und höchste Betriebssicherheit.</p>
+                    <p><strong style="color: var(--accent-color);">„Wir regeln das.“</strong> – das ist nicht nur unser Slogan, sondern unser Versprechen an Sie.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat-item"><div class="stat-number">20+</div><p>Jahre Expertise</p></div>
+                    <div class="stat-item"><div class="stat-number">500+</div><p>Projekte realisiert</p></div>
+                    <div class="stat-item"><div class="stat-number">15+</div><p>Fachexperten</p></div>
+                    <div class="stat-item"><div class="stat-number">100%</div><p>Kundenorientierung</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CAREERS SECTION ========== -->
+        <section id="careers" class="careers-section">
+            <div class="careers">
+                <h2>Karriere bei Neugart</h2>
+                <p>Wir suchen motivierte Elektroniker, Ingenieure und Quereinsteiger, die mit uns die Zukunft der Gebäudeautomation gestalten möchten.</p>
+                <a href="#" class="job-button">Jetzt bewerben →</a>
+            </div>
+        </section>
+
+        <!-- ========== FOOTER / CONTACT SECTION ========== -->
+        <footer id="contact">
+            <div class="footer-content">
+                <h3>Neugart GmbH</h3>
+                <p>IHR PARTNER FÜR SCHALTSCHRANKBAU & REGELUNGSTECHNIK</p>
+                <p style="margin-top: 1rem;">📍 Innovationsstraße 42 · 90411 Nürnberg<br>📞 +49 (0) 911 567890 · 📧 info@neugart-gmbh.de</p>
+                <div class="footer-links">
+                    <a href="#">Impressum</a>
+                    <a href="#">Datenschutz</a>
+                    <a href="#">AGB</a>
+                    <a href="#">Zertifikate</a>
+                </div>
+                <p style="margin-top: 2rem; font-size: 0.9rem;">© 2025 Neugart GmbH. Alle Rechte vorbehalten. „Wir regeln das.“</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
